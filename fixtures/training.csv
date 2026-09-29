@@ -1,0 +1,16 @@
+text,label
+Please correct the invoice billing address,Billing
+We received a duplicate invoice and need a refund,Billing
+The payment failed and the invoice remains unpaid,Billing
+Please send a receipt for our last payment,Billing
+Our account was charged twice for the subscription,Billing
+We need a quote for a new website project,Sales
+Can you estimate the price of an API integration,Sales
+Please schedule a call about a new automation project,Sales
+We want a proposal for a website redesign,Sales
+What is your availability for a new development project,Sales
+The API returns an error when connecting the service,Technical support
+Our website is down and users cannot sign in,Technical support
+The integration stopped working after an update,Technical support
+Please investigate a timeout in the backend service,Technical support
+The application crashes when uploading a file,Technical support
