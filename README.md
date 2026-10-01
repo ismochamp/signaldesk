@@ -49,7 +49,7 @@ Input limits: individual training/request text up to 10,000 characters, category
 python3 -m unittest discover -s tests -v
 ```
 
-See `TEST_RESULTS.md` for observed checks and `CASE_STUDY.md` for presentation copy. Screenshots record a real running local instance; captions identify verification inputs.
+See `TEST_RESULTS.md` for observed checks. Screenshots record a real running local instance; captions identify verification inputs.
 
 ## Architecture
 
@@ -59,7 +59,7 @@ Browser → local HTTP API → processing engine → SQLite → review/export.
 
 Scores are not calibrated probabilities. The included dataset is for functional verification, not a trained business model. A deployment should use representative business examples and a separate held-out evaluation set. This version is a single-user local tool with no authentication, cloud hosting, email ingestion, or automatic downstream actions.
 
-The listener binds only to 127.0.0.1. It is designed for one trusted user on one computer. Do not expose it through a tunnel or reverse proxy without adding authentication, encrypted transport, appropriate access controls and deployment review. To back up your work, stop the server and copy the SQLite file. Do not place confidential data in a public portfolio.
+The listener binds only to 127.0.0.1. It is designed for one trusted user on one computer. Do not expose it through a tunnel or reverse proxy without adding authentication, encrypted transport, appropriate access controls and deployment review. To back up your work, stop the server and copy the SQLite file.
 
 ## Files
 
